@@ -1,0 +1,43 @@
+name: library
+description: A library service built with Smithy Dart.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  library_service:
+    path: generated
+  shelf: ^1.4.0
+  smithy: ^0.3.2
+
+dependency_overrides:
+  aws_common:
+    git:
+      url: https://github.com/aws-amplify/amplify-flutter
+      ref: 965109b2bb77971463c86eec5c8b488bf9744df8
+      path: packages/aws_common
+  smithy:
+    git:
+      url: https://github.com/aws-amplify/amplify-flutter
+      ref: 965109b2bb77971463c86eec5c8b488bf9744df8
+      path: packages/smithy/smithy
+  smithy_aws:
+    git:
+      url: https://github.com/aws-amplify/amplify-flutter
+      ref: 965109b2bb77971463c86eec5c8b488bf9744df8
+      path: packages/smithy/smithy_aws
+  smithy_codegen:
+    git:
+      url: https://github.com/aws-amplify/amplify-flutter
+      ref: 965109b2bb77971463c86eec5c8b488bf9744df8
+      path: packages/smithy/smithy_codegen
+
+dev_dependencies:
+  lints: ^2.0.0
+  smithy_codegen:
+    git:
+      url: https://github.com/aws-amplify/amplify-flutter
+      ref: 965109b2bb77971463c86eec5c8b488bf9744df8
+      path: packages/smithy/smithy_codegen
