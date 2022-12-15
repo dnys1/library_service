@@ -40,8 +40,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/aws_common"
-      ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
-      resolved-ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
+      ref: next
+      resolved-ref: "5e8feb9392bb942cd3ce17d0e13e7921a281e17a"
       url: "https://github.com/aws-amplify/amplify-flutter"
     source: git
     version: "0.3.5"
@@ -371,8 +371,8 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/smithy/smithy"
-      ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
-      resolved-ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
+      ref: next
+      resolved-ref: "5e8feb9392bb942cd3ce17d0e13e7921a281e17a"
       url: "https://github.com/aws-amplify/amplify-flutter"
     source: git
     version: "0.3.2"
@@ -380,8 +380,8 @@ packages:
     dependency: "direct overridden"
     description:
       path: "packages/smithy/smithy_aws"
-      ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
-      resolved-ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
+      ref: next
+      resolved-ref: "5e8feb9392bb942cd3ce17d0e13e7921a281e17a"
       url: "https://github.com/aws-amplify/amplify-flutter"
     source: git
     version: "0.3.2"
@@ -389,8 +389,8 @@ packages:
     dependency: "direct dev"
     description:
       path: "packages/smithy/smithy_codegen"
-      ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
-      resolved-ref: "965109b2bb77971463c86eec5c8b488bf9744df8"
+      ref: next
+      resolved-ref: "5e8feb9392bb942cd3ce17d0e13e7921a281e17a"
       url: "https://github.com/aws-amplify/amplify-flutter"
     source: git
     version: "0.3.1"
